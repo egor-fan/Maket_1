@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #fff;
+  font-size: 2.4rem;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+.header-logo {
+  display: inline-block;
+  width: 246px;
+  height: 101px;
+  padding-left: 70px;
+  margin: 26px 0 28px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav {
+  margin: 63px 0 65px;
+  padding-right: 30px;
+}
+.header-nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 580px;
+}
+.header-nav__list > a {
+  font-size: 1.6rem;
+  color: #252b42;
+  padding: 10px;
+  font-weight: 600;
+}
+.header-nav__list a:hover {
+  color: #fa4a0c;
+}
+.download {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.download-text {
+  margin-top: 73px;
+  padding-bottom: 48px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1005px;
+  height: 326px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 5.8rem;
+  line-height: 80px;
+}
+.download-text h3 {
+  font-size: 2.4rem;
+  line-height: 36px;
+  color: #f7f7f7;
+}
+.download-text span {
+  display: inline-block;
+  font-size: 2.4rem;
+  line-height: 36px;
+  color: #f7f7f7;
+}
+.headerDownload {
+  background-image: url("/img/fon1.png");
+  width: 1440px;
+  height: 620px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 20px;
+  z-index: 20;
+}
+.playStore,
+.appStore {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 36px;
+  border: 1px solid white;
+  padding: 16px 58px;
+  border-radius: 30px;
+}
+.playStore {
+  margin-right: 34px;
+}
+
+.playStore:hover {
+  background-color: #fa4a0c;
+  border: 1px solid #fa4a0c;
+}
+
+.appStore:hover {
+  background-color: #fa4a0c;
+  border: 1px solid #fa4a0c;
+}
+
+.phones {
+  display: flex;
+  justify-content: center;
+  margin-top: -222px;
+  margin-bottom: 130px;
+}
+
+.line {
+  background-color: #e4e4e4;
+  margin: 0 auto;
+  width: 884px;
+  height: 5px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  opacity: 0.8;
+  color: #000000;
+  font-size: 4.4rem;
+  line-height: 36px;
+  margin: 78px auto 66px;
