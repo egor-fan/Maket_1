@@ -149,3 +149,43 @@ h2 {
   line-height: 36px;
   margin: 78px auto 66px;
 }
+
+.mainAppWork__text {
+  width: 570px;
+  height: 280px;
+}
+
+.mainAppWork {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mainAppWork__text h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #fa4a0c;
+}
+
+.mainAppWork__text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin: 32px auto 50px;
+}
+
+.mainAppWork__text h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
